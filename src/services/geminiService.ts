@@ -17,7 +17,7 @@ export async function chatWithGemini(message: string): Promise<ChatResponse> {
 
   try {
     const chat = ai.chats.create({
-      model: "gemini-3.6-flash",
+      model: "gemini-2.0-preview",
       config: {
         systemInstruction: "You are a highly intelligent AI assistant with a 'digital brain'. You have access to real-time information via Google Search. When answering, be precise, insightful, and cite your sources if you use search results.",
       
