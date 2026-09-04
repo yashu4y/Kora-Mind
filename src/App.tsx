@@ -804,7 +804,7 @@ export default function App() {
                 </button>
               </div>
               
-              <div className="flex-1 overflow-y-auto p-4 space-y-4">
+              <div className="flex-1 overflow-y-auto px-4 pt-4 pb-40 space-y-4">
                 {imageHistory.length === 0 ? (
                   <div className="text-center py-10 space-y-2">
                     <ImageIcon size={32} className="text-gray-200 mx-auto" />
