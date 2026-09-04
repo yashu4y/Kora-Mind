@@ -1,0 +1,10 @@
+{
+  "name": "Gemini AI Studio",
+  "description": "A versatile AI playground for chat, image generation, and creative exploration powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
